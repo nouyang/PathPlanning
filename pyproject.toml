@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pathplanning"
+version = "0.1.0"
+description = "This repository implements some common path planning algorithms used in robotics, including Search-based algorithms and Sampling-based algorithms. We designed animation for each algorithm to display the running process."
+authors = ["Huiming Zhou"]
+license = "MIT License"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.10"
+matplotlib = "^3.4.3"
+scipy = "^1.7.1"
+numpy = "^1.21.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
